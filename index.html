@@ -7,74 +7,726 @@
   <meta name="format-detection" content="telephone=no" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-  <meta name="description" content="Hongrita focuses on &quot;precision molds&quot; and &quot;intelligent plastic molding technology and equipment integration&quot;." />
-  <meta name="keywords" content="Injection Mold Design, Industrial Parts Mold, Precision Automotive Mould Parts, Precision Automotive Plastics, Automotive Mold, Injection Blow Moulding" />
+  <meta name="description" itemprop="description" content="Hongrita focuses on &quot;precision molds&quot; and &quot;intelligent plastic molding technology and equipment integration&quot;." />
+  <meta name="keywords" itemprop="keywords" content="Injection Mold Design, Industrial Parts Mold, Precision Automotive Mould Parts, Precision Automotive Plastics, Automotive Mold, Injection Blow Moulding" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://www.hongrita.com/" />
+
   <title>Injection Mold Design, Precision Automotive Mould Parts - Hongrita</title>
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="https://cdn.globalso.com/hongrita/e69a78ef1.png" />
+  <link rel="apple-touch-icon-precomposed" href="" />
 
   <!-- Fonts -->
   <link href="https://fonts.font.im/css?family=Noto+Sans" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-  <!-- Local CSS -->
-  <link href="css/main.css" rel="stylesheet" />
-  <link href="css/location-underline.css" rel="stylesheet" />
+  <!-- Stylesheets -->
+  <link href="//cdn.globalso.com/hongrita/style/global/style.css" rel="stylesheet" />
+  <link href="//cdn.globalso.com/hongrita/style/public/public.css" rel="stylesheet" />
 
-  <!-- Analytics -->
+  <!-- Custom CSS for LOCATION underline animation -->
+  <style>
+    /* === Animasi garis bawah LOCATION (page03) === */
+    .index_title.has-underline {
+      position: relative;
+      display: inline-block;
+      margin-bottom: 24px;
+    }
+    .index_title.has-underline::after {
+      content: '';
+      position: absolute;
+      bottom: -8px;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-color: #000;
+      transform-origin: left;
+      transform: scaleX(0);
+      transition: transform 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+    }
+    .index_title.animated.has-underline::after {
+      transform: scaleX(1);
+    }
+  </style>
+
+  <!-- Scripts (head) -->
+  <script type="text/javascript" src="//cdn.globalso.com/cookie_consent_banner.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-YQ8TTDRHB7"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'G-YQ8TTDRHB7');
   </script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
-<body>
-  <!-- ✅ Seluruh konten dari <div class="container"> ... </div> -->
-  <!-- Pastikan di section LOCATION: -->
-  <!-- <h2 class="index_title has-underline wow fadeInUpA" ...>LOCATION</h2> -->
 
+<body>
   <div class="container">
-    <!-- HEADER -->
+    <!-- ====================== HEADER ====================== -->
     <header class="index_web_head web_head">
-      <!-- ... konten header tetap utuh ... -->
+      <div class="head_layout layout">
+        <figure class="logo">
+          <a href="https://www.hongrita.com/">
+            <img src="https://cdn.globalso.com/hongrita/foot-logo.png" alt="Hongrita Logo">
+          </a>
+        </figure>
+
+        <div class="head_flex">
+          <nav class="nav_wrap">
+            <ul class="head_nav">
+              <li class="nav-current current-menu-ancestor current-menu-parent">
+                <a href="/">HOME</a>
+                <ul class="sub-menu">
+                  <li class="nav-current"><a href="/#page02">Our story</a></li>
+                  <li class="nav-current"><a href="/#page03">Location</a></li>
+                  <li class="nav-current"><a href="/#page04">Milestones</a></li>
+                  <li class="nav-current"><a href="/#page05">Qualifications</a></li>
+                  <li class="nav-current"><a href="/#page05">Honors</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="https://www.hongrita.com/about-us/">ABOUT US</a>
+                <ul class="sub-menu">
+                  <li><a href="/about-us/#message_ceo">Our Story</a></li>
+                  <li><a href="/about-us/#envir">Vision</a></li>
+                  <li><a href="/about-us/#social">Mission</a></li>
+                  <li><a href="/about-us/#gover">Our Value</a></li>
+                  <li><a href="/about-us/#management">Management Methodology</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="/market/">SECTORS</a>
+                <ul class="sub-menu">
+                  <li><a href="https://www.hongrita.com/market/medical/">Medical</a></li>
+                  <li><a href="/market/healthy/">Health Life</a></li>
+                  <li><a href="https://www.hongrita.com/market/babycare/">Baby Care</a></li>
+                  <li><a href="/market/automotive/">Automotive</a></li>
+                  <li><a href="/market/industrial/">Industrial</a></li>
+                  <li><a href="https://www.hongrita.com/market/consumer/">Consumer</a></li>
+                  <li><a href="https://www.hongrita.com/market/packaging/">Packaging</a></li>
+                  <li><a href="https://www.hongrita.com/market/precision-tooling/">Precision Tooling</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="/core-overview/">CORE COMPETENCES</a>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="https://www.hongrita.com/core/">Technical Competence</a>
+                    <ul class="sub-menu">
+                      <li><a href="/core/#item1">Multi-Component Injection Molding</a></li>
+                      <li><a href="/core/#item2">Multi-Cavitation Mold</a></li>
+                      <li><a href="/core/#item3">LSR Injection Molding</a></li>
+                      <li><a href="/core/#core_precis">Precision Injection Molding and Turnkey Solution</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="/core-overview/#over_laboratory">Laboratories</a></li>
+                  <li>
+                    <a href="https://www.hongrita.com/digital-intelligence-platform/">Intelligent Manufacturing</a>
+                    <ul class="sub-menu">
+                      <li><a href="/digital-intelligence-platform/#plate_high">High Performance Mold Intelligent Manufacturing</a></li>
+                      <li><a href="/digital-intelligence-platform/#plate_workshop">Precision Injection Molding Workshop</a></li>
+                      <li><a href="/digital-intelligence-platform/#plate_digi">Digital Management</a></li>
+                      <li><a href="/digital-intelligence-platform/#plate_display">Factory Display</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="/hrt/">@HONGRITA</a>
+                <ul class="sub-menu">
+                  <li><a href="/hrt/#contact">Contact Us</a></li>
+                  <li><a href="/hrt/#join">Join Us</a></li>
+                  <li><a href="/hrt/#dowload">Download</a></li>
+                  <li><a target="_blank" href="https://dafm03yt4.wasee.com/wt/dafm03yt4?def_sid=2274588">Factory Tour</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="/esg/">ESG</a>
+                <ul class="sub-menu">
+                  <li><a href="/esg/#esg">ESG</a></li>
+                  <li><a href="/esg/#envir">Environment</a></li>
+                  <li><a href="/esg/#social">Social</a></li>
+                  <li><a href="/esg/#gover">Governance</a></li>
+                  <li><a href="/esg/#policy">Policy</a></li>
+                  <li><a href="/esg/#excell">Excellent Performance</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="/news/">NEWS</a>
+                <ul class="sub-menu">
+                  <li><a href="https://www.hongrita.com/news_catalog/company-news/">News</a></li>
+                  <li><a href="https://www.hongrita.com/news_catalog/exhibition-news/">Event</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Social Media -->
+          <ul class="head_coop">
+            <li><a target="_blank" rel="nofollow" href="https://www.facebook.com/Hongrita1988"><img src="https://cdn.globalso.com/hongrita/324e76f0.png" alt="Facebook"></a></li>
+            <li><a target="_blank" rel="nofollow" href="https://www.linkedin.com/company/1820807/admin/"><img src="https://cdn.globalso.com/hongrita/58d83bba.png" alt="LinkedIn"></a></li>
+            <li><a target="_blank" rel="nofollow" href="https://www.youtube.com/channel/UCOsEBZr3rOYaMi9NY_mQWYA"><img src="https://cdn.globalso.com/hongrita/de2a961b.png" alt="YouTube"></a></li>
+            <li><a target="_blank" rel="nofollow" href="https://twitter.com/Hongrita3320936"><img src="https://cdn.globalso.com/hongrita/twitter2.png" alt="Twitter"></a></li>
+          </ul>
+
+          <!-- Language Switcher -->
+          <div class="langsear_fh flex_row">
+            <div id="btn-search" class="btn--search"></div>
+            <div class="change-language ensemble">
+              <div class="change-language-info">
+                <div class="change-language-title medium-title">
+                  <div class="language-flag language-flag-en moren">
+                    <a href="https://www.hongrita.com/"><b class="country-flag"></b><span>English</span></a>
+                  </div>
+                </div>
+                <div class="change-language-cont sub-content">
+                  <div class="empty"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
-    <!-- MAIN SECTIONS -->
+    <!-- ====================== MAIN SECTIONS ====================== -->
     <section class="web_main index_main">
+
       <!-- Hero Video -->
-      <section class="slider_banner section">...</section>
+      <section class="slider_banner section">
+        <video id="myVideo" autoplay muted loop>
+          <source src="//cdn.globalso.com/hongrita/company_video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <a href="#page02" class="to_paget">
+          <img src="//cdn.globalso.com/hongrita/style/global/img/aindex/img_28.png" alt="Scroll indicator">
+        </a>
+        <a href="#page02" class="jump_div">Scroll
+          <img src="//cdn.globalso.com/hongrita/style/global/img/aindex/img_27.png" alt="Arrow down">
+        </a>
+      </section>
 
       <!-- OUR STORY -->
-      <section class="index_our section flex_row">...</section>
+      <section class="index_our section flex_row">
+        <div class="our_left">
+          <ul class="scoll_num flex_row">
+            <li>
+              <h3 class="counter-title counter-item" data-to="1988" data-speed="60">0</h3>
+              <p>Founded in</p>
+            </li>
+            <li>
+              <span>+</span>
+              <h3 class="counter-title counter-item" data-to="100000" data-speed="60">0</h3>
+              <p>Square meters</p>
+            </li>
+            <li>
+              <span>+</span>
+              <h3 class="counter-title counter-item" data-to="160" data-speed="60">0</h3>
+              <p>Patents</p>
+            </li>
+          </ul>
+          <figure>
+            <img src="https://cdn.globalso.com/hongrita/OUR-STORY1.jpg" alt="Our Story">
+          </figure>
+        </div>
 
-      <!-- LOCATION (DENGAN ANIMASI GARIS) -->
+        <div class="our_right">
+          <h1 class="index_title wow fadeInUpA animated" data-wow-delay=".3s" data-wow-duration=".5s">OUR STORY</h1>
+          <div class="wow fadeInUpA animated" data-wow-delay=".5s" data-wow-duration=".5s">
+            <p>Mr. Felix Choi founded Hongrita in Hong Kong in 1988. With the development of business, we have established mold and plastic precision component factories in Longgang District Shenzhen City, Cuiheng New District Zhongshan City and Penang State Malaysia. The Group has 6 physical plants and employs about 2500 people.</p>
+            <p>Hongrita focuses on “precision molds” and “intelligent plastic molding technology and equipment integration”. “Precision molds” are the most competitive in multi material (multi component), multi cavity, and liquid silicone rubber (LSR) technology; molding processes include injection, extrusion, injection drawing and blowing, and other processes. Equipment integration refers to the integrated application of patented molds, customized molding machines, turntables, self-developed supporting equipment, detection systems, control and management software to form efficient molding solutions. We provide high-quality products and services to globally renowned brand customers in the fields of “Maternal and Child Health Products”, “Medical Machinery Components”, “Industrial and Automotive Components”, and “3C and Intelligent Technology”.</p>
+          </div>
+          <a href="/about-us/" class="wow fadeInUpA animated" data-wow-delay="1s" data-wow-duration=".5s">View More
+            <img src="//cdn.globalso.com/hongrita/style/global/img/aindex/img_15.png" alt="Arrow right">
+          </a>
+        </div>
+      </section>
+
+      <!-- LOCATION (UPDATED WITH UNDERLINE ANIMATION) -->
       <section class="index_loca section">
         <h2 class="index_title has-underline wow fadeInUpA"
             data-wow-delay=".2s"
             data-wow-duration=".6s">LOCATION</h2>
-        <!-- ... konten lokasi ... -->
+        <div class="loca_logo wow fadeInUpA animated" data-wow-delay=".3s" data-wow-duration=".8s">
+          <img src="//cdn.globalso.com/hongrita/style/global/img/aindex/img_20.png" alt="Location Map">
+        </div>
+
+        <ul class="loca_main flex_row">
+          <li>
+            <div class="li_main wow fadeInUpA animated" data-wow-delay=".8s" data-wow-duration=".8s">
+              <img src="https://cdn.globalso.com/hongrita/shenzhen.jpg" alt="Shenzhen">
+              <h3>Shenzhen</h3>
+              <p>Focusing on the 3C and intelligent technology components business, overseas commercial mold business, and in-house use molds.</p>
+            </div>
+            <div class="span_fh wow fadeInUpA animated" data-wow-delay="1.6s" data-wow-duration=".8s">
+              <span>HPL-SZ</span>
+              <span>HML-SZ</span>
+              <span></span>
+            </div>
+          </li>
+          <li>
+            <div class="li_main wow fadeInUpA animated" data-wow-delay=".8s" data-wow-duration=".8s">
+              <img src="https://cdn.globalso.com/hongrita/Zhongshan.jpg" alt="Zhongshan">
+              <h3>Zhongshan</h3>
+              <p>Serving as Hongrita's hub for innovation R&D, engineering, major projects and production; and the proving grounds of change management, new technology applications and intelligent manufacturing.</p>
+            </div>
+            <div class="span_fh wow fadeInUpA animated" data-wow-delay="1.6s" data-wow-duration=".8s">
+              <span>HPC-ZS</span>
+              <span>HMT-ZS</span>
+              <span><a href="/rmt/">RMT-ZS</a></span>
+            </div>
+          </li>
+          <li>
+            <div class="li_main wow fadeInUpA animated" data-wow-delay=".8s" data-wow-duration=".8s">
+              <img src="https://cdn.globalso.com/hongrita/Malaysia2.jpg" alt="Penang">
+              <h3>Penang</h3>
+              <p>Developing tooling and molding business in Southeast Asia; and serving as proving grounds of Hongrita's global expansion plan and training base for the overseas team.</p>
+            </div>
+            <div class="span_fh wow fadeInUpA animated" data-wow-delay="1.6s" data-wow-duration=".8s">
+              <span>HPC-PN</span>
+              <span><a href="/eastern-omega-sdn-bhds/">EO-PN</a></span>
+              <span></span>
+            </div>
+          </li>
+        </ul>
       </section>
 
-      <!-- MILESTONES, QUALIFICATIONS, NEWS, dll. -->
-      <!-- ... semua konten tetap utuh ... -->
+      <!-- MILESTONES -->
+      <section class="index_honors flex_row section">
+        <div class="honors_left">
+          <h2 class="index_title wow fadeInLeftA animated" data-wow-delay=".3s" data-wow-duration=".8s">MILESTONES</h2>
+          <div class="honors_left_swiper swiper-container">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide"><h3>1988: Hongrita was established in Hong Kong</h3></li>
+              <li class="swiper-slide"><h3>1993: Hongrita set up factory in Shenzhen</h3></li>
+              <li class="swiper-slide"><h3>2003: Successful development of multi-material technology</h3></li>
+              <li class="swiper-slide"><h3>2006: Moved to Shenzhen factory</h3></li>
+              <li class="swiper-slide"><h3>2008: Won the Hong Kong Mould & Die Association's Operational Excellence Award</h3></li>
+              <li class="swiper-slide"><h3>2012: Winner of the Hong Kong Awards for Industries - Machine and Machine Tool Design Award</h3></li>
+              <li class="swiper-slide"><h3>2012: Mr Felix Choi Managing Director was awarded Hong Kong Young Industrialist Award</h3></li>
+              <li class="swiper-slide"><h3>2012: Mr Felix Choi Managing Director received the 30th Anniversary Distinguished Alumni Award</h3></li>
+              <li class="swiper-slide"><h3>2013: Liquid Silicone Rubber Mould and Injection Technology successfully developed.</h3></li>
+              <li class="swiper-slide"><h3>2015: The groundbreaking ceremony for the new plant project of Honolulu Precision Equipment was successfully held on 14th July at the National Health Base of Cuiheng New District, Zhongshan.</h3></li>
+              <li class="swiper-slide"><h3>2017: Formal operation of the first phase of Zhongshan factory</h3></li>
+              <li class="swiper-slide"><h3>2018: 30th Anniversary Celebration of Hongrita</h3></li>
+              <li class="swiper-slide"><h3>2018: Completion of the second phase of Zhongshan base</h3></li>
+              <li class="swiper-slide"><h3>2019: Received Hong Kong Awards for Industries - Wise Productivity Award</h3></li>
+              <li class="swiper-slide"><h3>2020: Malaysia Penang factory started production</h3></li>
+              <li class="swiper-slide"><h3>2021: Official launch of Hongrita Moulds-Yi Mould Transparent Factory Implementation Project</h3></li>
+              <li class="swiper-slide"><h3>2021: Intelligent Learning Enterprise Award</h3></li>
+              <li class="swiper-slide"><h3>2021: Received R&D100 Innovation Award from USA</h3></li>
+              <li class="swiper-slide"><h3>2021: Engineering and Technology Research Centre</h3></li>
+              <li class="swiper-slide"><h3>2022: Shenzhen Innovative Small and Medium Enterprises</h3></li>
+              <li class="swiper-slide"><h3>2022: 2021-22 Hong Kong Awards for Environmental Excellence Manufacturing and Industrial Services Merit Award</h3></li>
+              <li class="swiper-slide"><h3>2022: Shenzhen Specialised, Specialised and New SMEs</h3></li>
+              <li class="swiper-slide"><h3>2022: Germ Repellent Silicone Rubber (GRSR) won the 2022 Geneva International Invention Award.</h3></li>
+              <li class="swiper-slide"><h3>2022: Awarded Environmental Excellence in the 2021 BOC Hong Kong Corporate Environmental Leadership Awards.</h3></li>
+              <li class="swiper-slide"><h3>2022: Awarded "Upgrading and Transformation Award" in the "2021-22 Hong Kong Awards for Industries".</h3></li>
+              <li class="swiper-slide"><h3>2023: The theme of Honolulu's 35th anniversary was set as "Focus on High Quality, Create Brilliance".</h3></li>
+              <li class="swiper-slide"><h3>2023: Obtained the title of Customs AEO Advanced Certified Enterprise.</h3></li>
+              <li class="swiper-slide"><h3>2023: Recognised as Guangdong Multi-Cavity and Multi-Material High-Precision Mould Engineering and Technology Research Centre by Guangdong Provincial Department of Science and Technology, and won several hon</h3></li>
+              <li class="swiper-slide"><h3>2023: Recognised by Industry 4.0-1i.</h3></li>
+              <li class="swiper-slide"><h3>2023: Innovative SMEs-Precision Components</h3></li>
+              <li class="swiper-slide"><h3>2023: Innovative SMEs-Zhongshan Moulds</h3></li>
+              <li class="swiper-slide"><h3>2023: China Key Backbone Enterprise of Precision Injection Moulds-Listed</h3></li>
+              <li class="swiper-slide"><h3>2023: China Key Backbone Enterprises of Precision Injection Moulds-Zhongshan Moulds</h3></li>
+              <li class="swiper-slide"><h3>2023: Specialised and Innovative Small and Medium Enterprises-Precision Components</h3></li>
+              <li class="swiper-slide"><h3>2023: Speciality, Precision, Speciality and New SMEs-Zhongshan Mould</h3></li>
+              <li class="swiper-slide"><h3>2023: Health Products Workshop "Digital Intelligent Workshop of Zhongshan Manufacturing Enterprises</h3></li>
+              <li class="swiper-slide"><h3>2024: Industrie 4.0 China Award 2024- Smart Factory</h3></li>
+              <li class="swiper-slide"><h3>2024: Successfully acquired EASTERN OMEGA SDN. BHD.</h3></li>
+              <li class="swiper-slide"><h3>2024: Ritamedtech (Zhongshan) Limited has successfully started production.</h3></li>
+              <li class="swiper-slide"><h3>2025: The first multi-component cubic mold and multi-component rotating stack mold have been successfully developed.</h3></li>
+              <li class="swiper-slide"><h3>2025: The industrial-academic-research cooperation project between Hongrita and Sun Yat-sen University was launched.</h3></li>
+            </ul>
+          </div>
+          <div class="honors_left_control">
+            <div class="banner_button_prev"></div>
+            <div class="banner_button_next"></div>
+          </div>
+        </div>
+
+        <div class="honors_right wow fadeInRightA animated" data-wow-delay=".3s" data-wow-duration=".8s">
+          <div class="honors_right_swiper swiper-container">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/1988-Hongrita-was-established-in-Hong-Kong.jpg" alt="1988"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/19932.jpg" alt="1993"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/20032.jpg" alt="2003"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/20062.jpg" alt="2006"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/20082.jpg" alt="2008"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/20122.jpg" alt="2012 Machine Award"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/e7e16dc8.jpg" alt="2012 Young Industrialist"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/4dbc6574.jpg" alt="2012 Alumni Award"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/20132.jpg" alt="2013 LSR"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2015_a21.jpg" alt="2015 Groundbreaking"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2017a_21.jpg" alt="2017 Zhongshan Phase 1"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2018_a0.jpg" alt="2018 Anniversary"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2018_a1.jpg" alt="2018 Zhongshan Phase 2"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2018_a21.jpg" alt="2018 Celebration"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2019_.jpg" alt="2019 Wise Productivity"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/20202.jpg" alt="2020 Penang"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2021_a1.jpg" alt="2021 Transparent Factory"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2021-Intelligent-Learning-Enterprise-Award.jpg" alt="2021 Intelligent Learning"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2021_c1.jpg" alt="2021 R&D100"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2021-1.jpg" alt="2021 Research Centre"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2022-1.jpg" alt="2022 Shenzhen SME"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2022-2021-1.jpg" alt="2022 Environmental Merit"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2022-2.jpg" alt="2022 Specialised SME"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2022_a1.jpg" alt="2022 Geneva Invention"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2022_b1.jpg" alt="2022 BOC Environmental"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2022_c1.jpg" alt="2022 Upgrading Award"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2023_a1.jpg" alt="2023 Theme"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2023_b1.jpg" alt="2023 AEO"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2023_c1.jpg" alt="2023 Guangdong Centre"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2023_d.jpg" alt="2023 Industry 4.0"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2023-3.jpg" alt="2023 SME Precision"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2023-4.jpg" alt="2023 SME Zhongshan"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2023-5.jpg" alt="2023 Backbone Listed"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2023-6.jpg" alt="2023 Backbone Zhongshan"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2023-7.jpg" alt="2023 Specialised SME Precision"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2023-8.jpg" alt="2023 Specialised SME Zhongshan"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/2023_e.jpg" alt="2023 Intelligent Workshop"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/Industrie-4.0-China-Award-2024-Smart-Factory.png" alt="2024 Smart Factory"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/Successfully-acquired-EASTERN-OMEGA-SDN.-BHD..jpg" alt="2024 EO Acquisition"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/Successfully-acquired-EASTERN-OMEGA-SDN.-BHD..png" alt="2024 EO Acquisition 2"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/The-first-multi-component-cubic-mold-and-multi-component-rotating-stack-mold-have-been-successfully-developed..png" alt="2025 Cubic Mold"></li>
+              <li class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/The-industrial-academic-research-cooperation-project-between-Hongrita-and-Sun-Yat-sen-University-was-launched..png" alt="2025 Sun Yat-sen"></li>
+            </ul>
+            <div class="swiper-num">
+              <span class="active">01</span>
+              <span class="line"></span>
+              <span class="total"> 04</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- QUALIFICATIONS & HONORS -->
+      <section class="index_quali section">
+        <div class="quali_top flex_row wow fadeInLeftA animated" data-wow-delay=".3s" data-wow-duration=".8s">
+          <article>
+            <h2 class="index_title">HONORS</h2>
+            <p>Every honor is a proof of surpassing ourselves. Keep forging ahead and never stop.</p>
+          </article>
+          <article>
+            <h2 class="index_title">QUALIFICATIONS</h2>
+            <p>Hongrita has been certified with ISO14001, ISO9001, IATF16949, ISO13485, ISO45001, ISO/IEC27001, ISCC PLUS and has FDA registered.</p>
+          </article>
+          <ul>
+            <li>HONORS</li>
+            <li class="active">QUALIFICATIONS</li>
+          </ul>
+        </div>
+
+        <div class="quality_main wow fadeInRightA animated" data-wow-delay=".3s" data-wow-duration=".8s">
+          <div class="quality-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/honglida.png" alt="Honglida"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/certificate-131.jpg" alt="Certificate 1"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/certificate-21.jpg" alt="Certificate 2"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/certificate-5.jpg" alt="Certificate 5"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/certificate-81.jpg" alt="Certificate 8"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/certificate-4.jpg" alt="Certificate 4"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/certificate-3.jpg" alt="Certificate 3"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/certificate-6.jpg" alt="Certificate 6"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/certificate-71.jpg" alt="Certificate 7"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/certificate-9.jpg" alt="Certificate 9"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/certificate-10.jpg" alt="Certificate 10"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/certificate-12.jpg" alt="Certificate 12"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/certificate-13.jpg" alt="Certificate 13"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/certificate-14.jpg" alt="Certificate 14"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/certificate-15.jpg" alt="Certificate 15"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/certificate-16.jpg" alt="Certificate 16"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/certificate-17.jpg" alt="Certificate 17"></div>
+            </div>
+            <div class="quality_btn">
+              <div class="quality-button-prev"></div>
+              <div class="quality-button-next"></div>
+            </div>
+          </div>
+          <div class="quality-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/img.png" alt="Img 1"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/img-1.jpg" alt="Img 2"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/img-2.jpg" alt="Img 3"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/img-3.jpg" alt="Img 4"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/img-4.jpg" alt="Img 5"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/img-5.jpg" alt="Img 6"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/img-6.jpg" alt="Img 7"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/img-7.jpg" alt="Img 8"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/img-8.jpg" alt="Img 9"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/img-9.jpg" alt="Img 10"></div>
+              <div class="swiper-slide"><img src="https://cdn.globalso.com/hongrita/img-10.jpg" alt="Img 11"></div>
+            </div>
+            <div class="quality_btn">
+              <div class="quality-button-prev"></div>
+              <div class="quality-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- NEWS -->
+      <section class="index_happen section">
+        <div class="happen_title flex_row wow fadeInRightA animated" data-wow-delay=".3s" data-wow-duration=".8s">
+          <h2 class="index_title">NEWS</h2>
+          <ul>
+            <li class="active">News</li>
+            <li>Event</li>
+          </ul>
+        </div>
+        <div class="happen_main wow fadeInRightA animated" data-wow-delay=".3s" data-wow-duration=".8s">
+          <div class="happen_swiper_fh">
+            <div class="index_happen_swiper swiper-container">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide flex_row">
+                  <figure><img src="https://cdn.globalso.com/hongrita/MDM-West-2026-4.png" alt="MD&M West 2026"></figure>
+                  <article class="flex_row">
+                    <div class="title_bar">
+                      <span>25-12-22</span>
+                      <p>MD&amp;M West 2026.02-Anaheim, USA-Booth#1793</p>
+                    </div>
+                    <a href="https://www.hongrita.com/news/mdm-west-2026-discover-the-latest-in-medical-design-and-manufacturing/">View More <img src="//cdn.globalso.com/hongrita/style/global/img/aindex/img_30.png" alt="Arrow"></a>
+                  </article>
+                </li>
+                <li class="swiper-slide flex_row">
+                  <figure><img src="https://cdn.globalso.com/hongrita/Medtec-China-2025.09-Shang-HaiChina-–-Booth1C110-1.jpg" alt="Medtec China 2025"></figure>
+                  <article class="flex_row">
+                    <div class="title_bar">
+                      <span>25-09-17</span>
+                      <p>Medtec China 2025.09- Shang Hai,China – Booth#1C110</p>
+                    </div>
+                    <a href="https://www.hongrita.com/news/medtec-china-2025-09-shang-haichina-booth1c110/">View More <img src="//cdn.globalso.com/hongrita/style/global/img/aindex/img_30.png" alt="Arrow"></a>
+                  </article>
+                </li>
+                <li class="swiper-slide flex_row">
+                  <figure><img src="https://cdn.globalso.com/hongrita/GUOG4098-202401191716079235-6078e74cd3cc7-35112779-无分类1.jpg" alt="Guangdong Awards 2024"></figure>
+                  <article class="flex_row">
+                    <div class="title_bar">
+                      <span>24-01-23</span>
+                      <p>Hongrita Mold Technology (Zhongshan) Ltd. won the “High Quality Development Enterprise Award” in Zhongshan</p>
+                    </div>
+                    <a href="https://www.hongrita.com/news/hongrita-mold-technology-zhongshan-ltd-won-the-high-quality-development-enterprise-award-in-zhongshan/">View More <img src="//cdn.globalso.com/hongrita/style/global/img/aindex/img_30.png" alt="Arrow"></a>
+                  </article>
+                </li>
+                <li class="swiper-slide flex_row">
+                  <figure><img src="https://cdn.globalso.com/hongrita/微信图片_20230601130941.jpg" alt="35th Anniversary"></figure>
+                  <article class="flex_row">
+                    <div class="title_bar">
+                      <span>23-12-13</span>
+                      <p>The 35th Anniversary Kick-Off Meeting and 2023 All Staff Meeting of Hongrita successfully concluded</p>
+                    </div>
+                    <a href="https://www.hongrita.com/news/the-35th-anniversary-kick-off-meeting-and-2023-all-staff-meeting-of-honolulu-successfully-concluded/">View More <img src="//cdn.globalso.com/hongrita/style/global/img/aindex/img_30.png" alt="Arrow"></a>
+                  </article>
+                </li>
+                <li class="swiper-slide flex_row">
+                  <figure><img src="https://cdn.globalso.com/hongrita/d639d6e6be37745e3eba36aa5b3a93c.jpg" alt="Industry 4.0 Recognition"></figure>
+                  <article class="flex_row">
+                    <div class="title_bar">
+                      <span>23-06-07</span>
+                      <p>Hongrita successfully obtained Industry 4.0-1 i recognition</p>
+                    </div>
+                    <a href="https://www.hongrita.com/news/honolulu-successfully-obtained-industry-4-0-1-i-recognition/">View More <img src="//cdn.globalso.com/hongrita/style/global/img/aindex/img_30.png" alt="Arrow"></a>
+                  </article>
+                </li>
+              </ul>
+            </div>
+            <div class="index_happen_control">
+              <div class="banner_button_prev"></div>
+              <div class="banner_button_next"></div>
+            </div>
+          </div>
+          <div class="happen_swiper_fh">
+            <div class="index_happen_swiper swiper-container">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide flex_row">
+                  <figure><img src="https://cdn.globalso.com/hongrita/工作人员合照-2.jpg" alt="DMP 2024"></figure>
+                  <article class="flex_row">
+                    <div class="title_bar">
+                      <span>24-12-05</span>
+                      <p>DMP 2024.11 – Shen Zhen,China – Booth#12C21</p>
+                    </div>
+                    <a href="https://www.hongrita.com/news/dmp-greater-bay-arer-industrial-expo-2024/">View More <img src="//cdn.globalso.com/hongrita/style/global/img/aindex/img_30.png" alt="Arrow"></a>
+                  </article>
+                </li>
+                <li class="swiper-slide flex_row">
+                  <figure><img src="https://cdn.globalso.com/hongrita/微信图片_20240530084729.jpg" alt="DMC 2024"></figure>
+                  <article class="flex_row">
+                    <div class="title_bar">
+                      <span>24-05-29</span>
+                      <p>DMC 2024.06 – Shang Hai,China – Booth#E118-1</p>
+                    </div>
+                    <a href="https://www.hongrita.com/news/die-mould-china-2024/">View More <img src="//cdn.globalso.com/hongrita/style/global/img/aindex/img_30.png" alt="Arrow"></a>
+                  </article>
+                </li>
+                <li class="swiper-slide flex_row">
+                  <figure><img src="https://cdn.globalso.com/hongrita/Hongrita-machine-area.jpg" alt="Chinaplas 2024"></figure>
+                  <article class="flex_row">
+                    <div class="title_bar">
+                      <span>24-04-18</span>
+                      <p>Chinaplas 2024.04 – Shang Hai,China – Booth#5.2F10</p>
+                    </div>
+                    <a href="https://www.hongrita.com/news/chinaplas-2024/">View More <img src="//cdn.globalso.com/hongrita/style/global/img/aindex/img_30.png" alt="Arrow"></a>
+                  </article>
+                </li>
+                <li class="swiper-slide flex_row">
+                  <figure><img src="https://cdn.globalso.com/hongrita/Join-us-at-IME-West-2024-11.png" alt="MD&M West 2024"></figure>
+                  <article class="flex_row">
+                    <div class="title_bar">
+                      <span>24-02-01</span>
+                      <p>MD&amp;M West 2024.02 – Anaheim,USA – Booth#2195</p>
+                    </div>
+                    <a href="https://www.hongrita.com/news/mdm-west-2024-2/">View More <img src="//cdn.globalso.com/hongrita/style/global/img/aindex/img_30.png" alt="Arrow"></a>
+                  </article>
+                </li>
+                <li class="swiper-slide flex_row">
+                  <figure><img src="https://cdn.globalso.com/hongrita/IMG-20231016-WA0059.jpg" alt="Fakuma 2023"></figure>
+                  <article class="flex_row">
+                    <div class="title_bar">
+                      <span>23-10-05</span>
+                      <p>Fakuma 2023.10 – Friedrichshafen,Germany – Booth#A6-6011</p>
+                    </div>
+                    <a href="https://www.hongrita.com/news/fakuma-germany-2023/">View More <img src="//cdn.globalso.com/hongrita/style/global/img/aindex/img_30.png" alt="Arrow"></a>
+                  </article>
+                </li>
+              </ul>
+            </div>
+            <div class="index_happen_control">
+              <div class="banner_button_prev"></div>
+              <div class="banner_button_next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- VR Factory Tour -->
+      <section class="index_vr section">
+        <div class="open_img">
+          <img src="//cdn.globalso.com/hongrita/style/global/img/aindex/vr3d.png" alt="VR 3D Tour">
+        </div>
+        <div class="iframe_fh" value="https://dafm03yt4.wasee.com/wt/dafm03yt4">
+          <span class="close_span"><img src="//www.hongrita.com/uploads/close1.png" alt="Close"></span>
+        </div>
+      </section>
+
     </section>
 
-    <!-- FOOTER -->
-    <footer class="web_footer section flex_row">...</footer>
+    <!-- ====================== FOOTER ====================== -->
+    <footer class="web_footer section flex_row">
+      <div class="foot_top flex_row s">
+        <div class="top_left">
+          <div class="fot_logo">
+            <img src="https://cdn.globalso.com/hongrita/foot-logo.png" alt="Hongrita Footer Logo">
+          </div>
+          <div class="topl_main flex_row">
+            <div class="ft_one">
+              <h3>SECTORS</h3>
+              <ul>
+                <li><a href="https://www.hongrita.com/market/medical/">Medical</a></li>
+                <li><a href="https://www.hongrita.com/market/healthy/">Health Life</a></li>
+                <li><a href="https://www.hongrita.com/market/babycare/">Baby Care</a></li>
+                <li><a href="https://www.hongrita.com/market/automotive/">Automotive</a></li>
+                <li><a href="https://www.hongrita.com/market/industrial/">Industrial</a></li>
+                <li><a href="https://www.hongrita.com/market/consumer/">Consumer</a></li>
+                <li><a href="https://www.hongrita.com/market/packaging/">Packaging</a></li>
+                <li><a href="https://www.hongrita.com/market/precision-tooling/">Precision Tooling</a></li>
+                <li><a href="https://www.hongrita.com/privacy-policy/">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="ft_two">
+              <h3>CORE COMPETITIVENESS</h3>
+              <ul>
+                <li><a href="/digital-intelligence-platform/">Digitalized Intelligent Manufacturing</a></li>
+                <li><a href="/core/#item1">Multi-Component Injection Molding</a></li>
+                <li><a href="/core/#item2">Multi-Cavitation Mold</a></li>
+                <li><a href="/core/#item3">LSR Injection Molding</a></li>
+                <li><a href="/core/#core_precis">Precision Injection Molding and Equipment</a></li>
+                <li><a href="/digital-intelligence-platform/#plate_high">High-performance Mold Intelligent Manufacturing</a></li>
+              </ul>
+            </div>
+            <div class="ft_there">
+              <h3>CONTACT US</h3>
+              <ul>
+                <li><a target="_blank" href="https://www.hongrita.com/hrt/#contact">Hong Kong office</a></li>
+                <li><a target="_blank" href="https://www.hongrita.com/hrt/#contact">Shen Zhen China Factory</a></li>
+                <li><a target="_blank" href="https://www.hongrita.com/hrt/#contact">Zhong Shan China Factory</a></li>
+                <li><a target="_blank" href="https://www.hongrita.com/hrt/#contact">Penang Malaysia Factory</a></li>
+                <li><a target="_blank" href="https://www.hongrita.com/eastern-omega-sdn-bhds/">Eastern Omega Sdn. Bhd.</a></li>
+                <li><a target="_blank" href="https://www.hongrita.com/rmt/">Ritamedtech (Zhongshan) Limited</a></li>
+              </ul>
+            </div>
+            <div class="ft_four">
+              <h3>EMPLOYEE COMPLAINT</h3>
+              <ul>
+                <li><a>T: +86 760 8692 7888 Ext. 80105</a></li>
+                <li><a href="mailto:employeessuggestionbox@hongrita.com">E: employeessuggestionbox@hongrita.com</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-    <!-- Popups -->
-    <div class="inquiry-pop-bd">...</div>
-    <div class="web-search">...</div>
+        <div class="top_right" id="top_right">
+          <h2 class="wow fadeInRightA animated" data-wow-delay=".3s" data-wow-duration=".8s">Please send us a message</h2>
+          <script type="text/javascript" src="//formcs.globalso.com/form/generate.js?id=1487"></script>
+        </div>
+      </div>
+
+      <div class="foot_btm">
+        <p class="wow fadeInRightA animated" data-wow-delay=".3s" data-wow-duration=".8s">
+          © Copyright - 2010-2025 : All Rights Reserved.
+        </p>
+        <ul class="footer_site">
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+          <li><a href="https://m.hongrita.com/">AMP Mobile</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Inquiry Popup -->
+    <div class="inquiry-pop-bd">
+      <div class="inquiry-pop">
+        <i class="ico-close-pop" onClick="hideMsgPop();"></i>
+        <div class="download_form">
+          <div class="dow_form">
+            <script type="text/javascript" src="//formcs.globalso.com/form/generate.js?id=1483"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Search Popup -->
+    <div class="web-search">
+      <b id="btn-search-close" class="btn--search-close"></b>
+      <div class="head-search">
+        <form action="/search.php" method="get">
+          <input class="search-ipt" name="s" placeholder="Start Typing..." />
+          <input type="hidden" name="cat" value="490" />
+          <input class="search-btn" type="submit" value=" " />
+          <span class="search-attr">Hit enter to search or ESC to close</span>
+        </form>
+      </div>
+    </div>
   </div>
 
-  <!-- Scripts -->
-  <script src="js/vendor/jquery.min.js"></script>
-  <script src="js/vendor/common.js"></script>
-  <script src="js/main.js"></script>
+  <!-- ====================== SCRIPTS ====================== -->
+  <script type="text/javascript" src="//cdn.globalso.com/hongrita/style/global/js/jquery.min.js"></script>
+  <script type="text/javascript" src="//cdn.globalso.com/hongrita/style/global/js/common.js"></script>
+
+  <!--[if lt IE 9]>
+  <script src="//cdn.globalso.com/hongrita/style/global/js/html5.js"></script>
+  <![endif]-->
+
+  <!-- Re-init WOW if needed -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      if (typeof WOW !== 'undefined' && !window.wowInitialized) {
+        new WOW().init();
+        window.wowInitialized = true;
+      }
+    });
+  </script>
 </body>
 </html>
